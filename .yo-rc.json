@@ -1,0 +1,24 @@
+{
+  "generator-jhipster": {
+    "baseName": "ui",
+    "packageName": "com.coatsn",
+    "packageFolder": "com/coatsn",
+    "authenticationType": "session",
+    "hibernateCache": "ehcache",
+    "clusteredHttpSession": "no",
+    "websocket": "spring-websocket",
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": "elasticsearch",
+    "useSass": true,
+    "buildTool": "maven",
+    "frontendBuilder": "gulp",
+    "enableTranslation": false,
+    "enableSocialSignIn": false,
+    "rememberMeKey": "3a4032fc8f84b07b0f3cf582ddae808c056af6d7",
+    "testFrameworks": [
+      "gatling"
+    ]
+  }
+}
